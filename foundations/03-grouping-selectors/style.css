@@ -1,0 +1,18 @@
+/* grouping selector setting font and font-family */
+.inverted,
+.fancy {
+font-size: 28px;
+font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+/* class selector for white and black button */
+.inverted {
+color: #f4f4f7;
+background-color: hsl(20, 100%, 10%);
+font-weight: bold;
+}
+
+/* class selector for yellow and black button  */
+.fancy {
+background-color: rgb(239, 243, 0);
+}
