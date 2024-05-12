@@ -1,1 +1,11 @@
 /* Add CSS Styling */
+/* chain selector that only applies to first image in top div */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+/* chain selector that only applies to second image in top div */
+.avatar.distorted {
+    width: 200px;  
+    height: 400px;
+}
