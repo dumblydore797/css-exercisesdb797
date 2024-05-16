@@ -3,7 +3,9 @@
   background: papayawhip;
   display: flex;
   justify-content: center;
+  justify-content: space-around;
 }
+
 
 .logo {
   font-size: 48px;
