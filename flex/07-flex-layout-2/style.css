@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .sidebar {
@@ -46,6 +47,29 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+}
+
+.cards {
+  padding: 48px;
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
+
+}
+
+.body {
+  display: flex;
+  flex: 1;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
