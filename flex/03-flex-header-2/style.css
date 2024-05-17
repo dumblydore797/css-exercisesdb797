@@ -15,7 +15,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 16px;
+  padding: 0 8px;
+}
+
+.left-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -43,13 +50,16 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  gap: 16px;
+  padding-left: 0;
 }
 
-.buttons {
+.right-side {
   display: flex;
   flex: auto;
   justify-content: flex-end;
   align-items: center;
+  gap: 16px;
 }
 button {
   border: none;
